@@ -7,7 +7,6 @@ This projects implements the Trie Data Structure which develops an autocomplete 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
