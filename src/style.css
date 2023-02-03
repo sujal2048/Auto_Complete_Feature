@@ -108,12 +108,11 @@ input.input {
 	color: #5383d3;
 	padding: 0 5px;
 	text-decoration:none;
-	/* color: #ffffff; */
 	opacity: 1.0;
 }
 
 .header-fixed .header-limiter nav a:hover{
-    background-color: rgba(255, 255, 0, 0.153)
+    background-color: rgba(188, 34, 152, 0.153)
 }
 
 .header-fixed .header-limiter nav a.selected {
@@ -150,8 +149,14 @@ body.fixed .header-fixed .header-limiter nav {
 
 
 /* Making the header responsive */
+@media all and (max-width: 420px){
+	.header-fixed .header-limiter nav a {
+		display: none;
+	}
 
-@media all and (max-width: 600px) {
+}
+
+@media all and (max-width: 800px)  {
 
 	.header-fixed {
 		padding: 10px 0;
@@ -180,3 +185,4 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 
 }
+
